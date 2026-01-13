@@ -86,20 +86,18 @@ nav a {
 .title2 {
   font-size: 1.1rem;
   font-weight: 600;
-  margin-bottom: 32px;
+  margin: -8px 0 32px; /* 上マージンをマイナスで上げる */
   color: #555;
-  line-height: 1.1; /* PC用は少し詰めた */
+  line-height: 1.2;
 }
 
 /* ===== レスポンシブ（スマホ調整） ===== */
 @media (max-width: 768px) {
-  .title {
-    font-size: 1.75rem;
-    line-height: 1.3; /* スマホは少し広げて文字が重ならないように */
-  }
   .title2 {
     font-size: 1rem;
-    line-height: 1.2; /* スマホ用に少し広め */
+    line-height: 1.2;
+    margin-top: -6px; /* 少しだけ上に */
+    margin-bottom: 24px;
   }
 }
 
